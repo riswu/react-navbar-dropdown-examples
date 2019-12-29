@@ -1,0 +1,9 @@
+{
+  "short_name": "react-flex-dropdown examples",
+  "name": "Examples of using react-flex-dropdown",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
