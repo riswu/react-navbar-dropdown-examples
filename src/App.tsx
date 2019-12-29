@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Example1 from './example1';
 import Example2 from './example2';
 import './app.scss';
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <div className="app">
         <Switch>
           <Route path="/example1" exact component={Example1}/>
@@ -14,7 +14,7 @@ const App: React.FC = () => {
           <Route exact component={Example1}/>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
