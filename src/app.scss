@@ -1,1 +1,10 @@
-.app {}
+.body {
+  box-sizing: border-box;
+  margin: 10px 0px;
+  padding: 0px 40px;
+
+  &__note {
+    padding: 0px 10px;
+    text-align: end;
+  }
+}
