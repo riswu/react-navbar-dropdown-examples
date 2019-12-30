@@ -59,9 +59,9 @@ const Example1: React.FC = () => {
       </div>
       <div className="navbar__menu">
         <div className="menu">
-          <Link to="/example1" className="menu__item">Exapmle 1</Link>
+          <Link className="menu__item" to="/example1">Exapmle 1</Link>
           <div className="menu__separator" />
-          <Link to="/example2" className="menu__item">Exapmle 2</Link>
+          <Link className="menu__item" to="/example2">Exapmle 2</Link>
           <div className="menu__spacer" />
           <Example1Dropdown />
         </div>

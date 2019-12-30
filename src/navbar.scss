@@ -8,34 +8,16 @@ $text-color-hover: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
-  margin: 0px;
   padding: 0px 40px;
   height: 43px;
   background-color: $main-color;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: $separator-color;
-
-  &__title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  &__menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
+  border-bottom: solid 1px $separator-color;
 }
 
 .title {
-  box-sizing: border-box;
   padding: 4px 8px;
-  margin: 0px 1px;
   font-size: 16px;
   font-weight: bold;
   color: $text-color;
@@ -48,24 +30,17 @@ $text-color-hover: white;
   align-items: center;
 
   &__separator {
-    display: block;
-    box-sizing: border-box;
     width: 1px;
     height: 16px;
     background-color: $separator-color;
   }
 
   &__spacer {
-    display: block;
-    box-sizing: border-box;
     width: 5px;
   }
 
   &__item {
-    display: block;
-    box-sizing: border-box;
     padding: 4px 8px;
-    margin: 0px 1px;
     border-radius: 3px;
     font-size: 13px;
     font-weight: bold;
@@ -75,7 +50,6 @@ $text-color-hover: white;
     &:hover {
       background-color: $main-color-hover;
       color: $text-color-hover;
-      text-decoration: none;
       cursor: pointer;
     }
   }
