@@ -1,1 +1,1 @@
-Examples of using react-flex-dropdown
+Examples of using react-navbar-dropdown

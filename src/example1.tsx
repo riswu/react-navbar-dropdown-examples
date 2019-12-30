@@ -1,40 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FlexDropdown from 'react-flex-dropdown';
+import NavbarDropdown from 'react-navbar-dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretUp, faCaretDown } from '@fortawesome/free-solid-svg-icons';
-import './header.scss';
+import './navbar.scss';
 import './example1.scss';
 
 const Example1: React.FC = () => {
   return (
-    <div className="header">
-      <div className="header__title">
+    <div className="navbar">
+      <div className="navbar__title">
         <div className="title">Example 1</div>
       </div>
 
-      <div className="header__menu">
+      <div className="navbar__menu">
         <div className="menu">
           <Link to="/example1" className="menu__item">Exapmle 1</Link>
           <div className="menu__separator" />
           <Link to="/example2" className="menu__item">Exapmle 2</Link>
           <div className="menu__spacer" />
-          <FlexDropdown>
-            <FlexDropdown.Toggle>
-              <FlexDropdown.Open className="menu__item">
+          <NavbarDropdown>
+            <NavbarDropdown.Toggle>
+              <NavbarDropdown.Open className="menu__item">
                 <FontAwesomeIcon icon={faCaretDown} fixedWidth />
-              </FlexDropdown.Open>
-              <FlexDropdown.Close className="menu__item">
+              </NavbarDropdown.Open>
+              <NavbarDropdown.Close className="menu__item">
                 <FontAwesomeIcon icon={faCaretUp} fixedWidth />
-              </FlexDropdown.Close>
-            </FlexDropdown.Toggle>
-            <FlexDropdown.Menu className="example1-dropdown-menu" interval="4px" align="right">
-              <FlexDropdown.Item className="example1-dropdown-menu__item">Item 1</FlexDropdown.Item>
-              <FlexDropdown.Item className="example1-dropdown-menu__item">Item 2</FlexDropdown.Item>
-              <FlexDropdown.Item className="example1-dropdown-menu__item">Item 3</FlexDropdown.Item>
-              <FlexDropdown.Item className="example1-dropdown-menu__item">Item 4</FlexDropdown.Item>
-            </FlexDropdown.Menu>
-          </FlexDropdown>
+              </NavbarDropdown.Close>
+            </NavbarDropdown.Toggle>
+            <NavbarDropdown.Menu className="example1-dropdown-menu" interval="4px" align="right">
+              <NavbarDropdown.Item className="example1-dropdown-menu__item">Item 1</NavbarDropdown.Item>
+              <NavbarDropdown.Item className="example1-dropdown-menu__item">Item 2</NavbarDropdown.Item>
+              <NavbarDropdown.Item className="example1-dropdown-menu__item">Item 3</NavbarDropdown.Item>
+              <NavbarDropdown.Item className="example1-dropdown-menu__item">Item 4</NavbarDropdown.Item>
+            </NavbarDropdown.Menu>
+          </NavbarDropdown>
         </div>
       </div>
     </div>

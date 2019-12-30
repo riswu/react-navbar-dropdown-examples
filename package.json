@@ -1,8 +1,8 @@
 {
-  "name": "react-flex-dropdown-examples",
+  "name": "react-navbar-dropdown-examples",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://riswu.github.io/react-flex-dropdown-examples",
+  "homepage": "http://riswu.github.io/react-navbar-dropdown-examples",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
@@ -17,7 +17,7 @@
     "@types/react-router-dom": "^5.1.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-flex-dropdown": "file:../react-flex-dropdown",
+    "react-navbar-dropdown": "file:../react-navbar-dropdown",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "typescript": "^3.7.4"
