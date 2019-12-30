@@ -1,6 +1,6 @@
 {
-  "short_name": "react-flex-dropdown examples",
-  "name": "Examples of using react-flex-dropdown",
+  "short_name": "react-navbar-dropdown examples",
+  "name": "Examples of using react-navbar-dropdown",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
