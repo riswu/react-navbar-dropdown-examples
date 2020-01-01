@@ -1,0 +1,19 @@
+[21:30:43.674] Global cache location '/Users/keitasugiyama/Library/Caches/typescript/3.7', safe file path '/users/keitasugiyama/documents/react/react-navbar-dropdown-examples/node_modules/typescript/lib/typingsafelist.json', types map path /users/keitasugiyama/documents/react/react-navbar-dropdown-examples/node_modules/typescript/lib/typesmap.json
+[21:30:43.676] Processing cache location '/Users/keitasugiyama/Library/Caches/typescript/3.7'
+[21:30:43.678] Trying to find '/Users/keitasugiyama/Library/Caches/typescript/3.7/package.json'...
+[21:30:43.679] Loaded content of '/Users/keitasugiyama/Library/Caches/typescript/3.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.471"}}
+[21:30:43.679] Loaded content of '/Users/keitasugiyama/Library/Caches/typescript/3.7/package-lock.json'
+[21:30:43.679] Finished processing cache location '/Users/keitasugiyama/Library/Caches/typescript/3.7'
+[21:30:43.679] Process id: 4144
+[21:30:43.679] NPM location: /Users/keitasugiyama/.nodebrew/node/v11.13.0/bin/npm (explicit '--npmLocation' not  provided)
+[21:30:43.680] validateDefaultNpmLocation: false
+[21:30:43.680] Npm config file: /Users/keitasugiyama/Library/Caches/typescript/3.7/package.json
+[21:30:43.680] Updating types-registry npm package...
+[21:30:43.680] Exec: /Users/keitasugiyama/.nodebrew/node/v11.13.0/bin/npm install --ignore-scripts types-registry@latest
+[21:30:45.394]     Succeeded. stdout:
+    + types-registry@0.1.471
+    updated 1 package and audited 1 package in 1.037s
+found 0 vulnerabilities
+
+
+[21:30:45.395] Updated types-registry npm package
