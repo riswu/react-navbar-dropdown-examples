@@ -2,7 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavbarDropdown from 'react-navbar-dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
+import {
+  faTimes,
+  faTh,
+  faUser,
+  faBookmark,
+  faArchive,
+  faCog
+} from '@fortawesome/free-solid-svg-icons';
 import './navbar.scss';
 import './example2.scss';
 
@@ -11,7 +18,7 @@ const Example2Dropdown: React.FC = () => {
     <NavbarDropdown>
       <NavbarDropdown.Toggle>
         <NavbarDropdown.Open className="menu__item">
-          <FontAwesomeIcon icon={faBars} fixedWidth />
+          <FontAwesomeIcon icon={faTh} fixedWidth />
         </NavbarDropdown.Open>
         <NavbarDropdown.Close className="menu__item">
           <FontAwesomeIcon icon={faTimes} fixedWidth />
@@ -22,42 +29,46 @@ const Example2Dropdown: React.FC = () => {
         between="4px"
         align="right"
       >
-        <NavbarDropdown.Container
-          className="example2-dropdown-menu__row"
-        >
+        <div className="example2-dropdown-menu__row">
           <NavbarDropdown.Item
-            className="example2-dropdown-menu__item"
-            style={{ backgroundColor: 'lightblue' }}
+            className="example2-dropdown-menu-item"
             onClick={() => alert('Item 1: clicked!')}
           >
-            Item 1
+            <div className="example2-dropdown-menu-item__icon">
+              <FontAwesomeIcon icon={faUser} fixedWidth />
+            </div>
+            <div className="example2-dropdown-menu-item__text">Item 1</div>
           </NavbarDropdown.Item>
           <NavbarDropdown.Item
-            className="example2-dropdown-menu__item"
-            style={{ backgroundColor: 'lightgreen' }}
+            className="example2-dropdown-menu-item"
             onClick={() => alert('Item 2: clicked!')}
           >
-            Item 2
+            <div className="example2-dropdown-menu-item__icon">
+              <FontAwesomeIcon icon={faBookmark} fixedWidth />
+            </div>
+            <div className="example2-dropdown-menu-item__text">Item 2</div>
           </NavbarDropdown.Item>
-        </NavbarDropdown.Container>
-        <NavbarDropdown.Container
-          className="example2-dropdown-menu__row"
-        >
+        </div>
+        <div className="example2-dropdown-menu__row">
           <NavbarDropdown.Item
-            className="example2-dropdown-menu__item"
-            style={{ backgroundColor: 'orange' }}
+            className="example2-dropdown-menu-item"
             onClick={() => alert('Item 3: clicked!')}
           >
-            Item 3
+            <div className="example2-dropdown-menu-item__icon">
+              <FontAwesomeIcon icon={faArchive} fixedWidth />
+            </div>
+            <div className="example2-dropdown-menu-item__text">Item 3</div>
           </NavbarDropdown.Item>
           <NavbarDropdown.Item
-            className="example2-dropdown-menu__item"
-            style={{ backgroundColor: 'greenyellow' }}
+            className="example2-dropdown-menu-item"
             onClick={() => alert('Item 4: clicked!')}
           >
-            Item 4
+            <div className="example2-dropdown-menu-item__icon">
+              <FontAwesomeIcon icon={faCog} fixedWidth />
+            </div>
+            <div className="example2-dropdown-menu-item__text">Item 4</div>
           </NavbarDropdown.Item>
-        </NavbarDropdown.Container>
+        </div>
       </NavbarDropdown.Menu>
     </NavbarDropdown>
   );

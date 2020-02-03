@@ -1,8 +1,7 @@
-$main-color: #F1D145;
-$main-color-hover: #E1C135;
-$separator-color: #D1B125;
-$text-color: #383838;
-$text-color-hover: white;
+$main-color: #FFFFFF;
+$main-color-hover: #F3F5F7;
+$separator-color: #C3C5C7;
+$text-color: #333537;
 
 .navbar {
   display: flex;
@@ -49,7 +48,6 @@ $text-color-hover: white;
 
     &:hover {
       background-color: $main-color-hover;
-      color: $text-color-hover;
       cursor: pointer;
     }
   }
