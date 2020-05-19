@@ -23,6 +23,6 @@ const App: React.FC = () => {
       </div>
     </HashRouter>
   );
-}
+};
 
 export default App;

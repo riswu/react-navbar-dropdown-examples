@@ -1,10 +1,12 @@
 .example2-dropdown-menu {
   display: flex;
   flex-direction: column;
+  top: 28px;
+  right: 0;
   padding: 8px 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 3px;
-  box-shadow: 0px 0px 5px #C3C5C7;
+  box-shadow: 0px 0px 5px #c3c5c7;
 
   &__row {
     display: flex;
@@ -23,7 +25,7 @@
   color: #333537;
 
   &:hover {
-    background-color: #F3F5F7;
+    background-color: #f3f5f7;
   }
 
   &__icon {

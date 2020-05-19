@@ -1,10 +1,30 @@
 .example1-dropdown-menu {
   display: flex;
   flex-direction: column;
+  top: 28px;
+  right: 0;
   padding: 8px 0px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 3px;
-  box-shadow: 0px 0px 5px #C3C5C7;
+  box-shadow: 0px 0px 5px #c3c5c7;
+
+  &-enter {
+    opacity: 0;
+  }
+
+  &-enter-active {
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
+
+  &-exit {
+    opacity: 1;
+  }
+
+  &-exit-active {
+    opacity: 0;
+    transition: 0.2s ease-in;
+  }
 }
 
 .example1-dropdown-menu-item {
@@ -17,7 +37,7 @@
   color: #333537;
 
   &:hover {
-    background-color: #F3F5F7;
+    background-color: #f3f5f7;
   }
 
   &__spacer {

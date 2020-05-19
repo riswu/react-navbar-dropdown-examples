@@ -2,14 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavbarDropdown from 'react-navbar-dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTimes,
-  faTh,
-  faUser,
-  faBookmark,
-  faArchive,
-  faCog
-} from '@fortawesome/free-solid-svg-icons';
+import { faTimes, faTh, faUser, faBookmark, faArchive, faCog } from '@fortawesome/free-solid-svg-icons';
 import './navbar.scss';
 import './example2.scss';
 
@@ -24,25 +17,15 @@ const Example2Dropdown: React.FC = () => {
           <FontAwesomeIcon icon={faTimes} fixedWidth />
         </NavbarDropdown.Close>
       </NavbarDropdown.Toggle>
-      <NavbarDropdown.Menu
-        className="example2-dropdown-menu"
-        between="4px"
-        align="right"
-      >
+      <NavbarDropdown.Menu className="example2-dropdown-menu">
         <div className="example2-dropdown-menu__row">
-          <NavbarDropdown.Item
-            className="example2-dropdown-menu-item"
-            onClick={() => alert('Item 1: clicked!')}
-          >
+          <NavbarDropdown.Item className="example2-dropdown-menu-item" onClick={() => alert('Item 1: clicked!')}>
             <div className="example2-dropdown-menu-item__icon">
               <FontAwesomeIcon icon={faUser} fixedWidth />
             </div>
             <div className="example2-dropdown-menu-item__text">Item 1</div>
           </NavbarDropdown.Item>
-          <NavbarDropdown.Item
-            className="example2-dropdown-menu-item"
-            onClick={() => alert('Item 2: clicked!')}
-          >
+          <NavbarDropdown.Item className="example2-dropdown-menu-item" onClick={() => alert('Item 2: clicked!')}>
             <div className="example2-dropdown-menu-item__icon">
               <FontAwesomeIcon icon={faBookmark} fixedWidth />
             </div>
@@ -50,19 +33,13 @@ const Example2Dropdown: React.FC = () => {
           </NavbarDropdown.Item>
         </div>
         <div className="example2-dropdown-menu__row">
-          <NavbarDropdown.Item
-            className="example2-dropdown-menu-item"
-            onClick={() => alert('Item 3: clicked!')}
-          >
+          <NavbarDropdown.Item className="example2-dropdown-menu-item" onClick={() => alert('Item 3: clicked!')}>
             <div className="example2-dropdown-menu-item__icon">
               <FontAwesomeIcon icon={faArchive} fixedWidth />
             </div>
             <div className="example2-dropdown-menu-item__text">Item 3</div>
           </NavbarDropdown.Item>
-          <NavbarDropdown.Item
-            className="example2-dropdown-menu-item"
-            onClick={() => alert('Item 4: clicked!')}
-          >
+          <NavbarDropdown.Item className="example2-dropdown-menu-item" onClick={() => alert('Item 4: clicked!')}>
             <div className="example2-dropdown-menu-item__icon">
               <FontAwesomeIcon icon={faCog} fixedWidth />
             </div>
@@ -82,9 +59,13 @@ const Example2: React.FC = () => {
       </div>
       <div className="navbar__menu">
         <div className="menu">
-          <Link className="menu__item" to="/example1">Exapmle 1</Link>
+          <Link className="menu__item" to="/example1">
+            Exapmle 1
+          </Link>
           <div className="menu__separator" />
-          <Link className="menu__item" to="/example2">Exapmle 2</Link>
+          <Link className="menu__item" to="/example2">
+            Exapmle 2
+          </Link>
           <div className="menu__spacer" />
           <Example2Dropdown />
         </div>
