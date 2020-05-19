@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-navbar-dropdown-examples/static/css/main.dcae3bfe.chunk.css",
-    "main.js": "/react-navbar-dropdown-examples/static/js/main.4e28a572.chunk.js",
-    "main.js.map": "/react-navbar-dropdown-examples/static/js/main.4e28a572.chunk.js.map",
-    "runtime-main.js": "/react-navbar-dropdown-examples/static/js/runtime-main.90a48107.js",
-    "runtime-main.js.map": "/react-navbar-dropdown-examples/static/js/runtime-main.90a48107.js.map",
-    "static/js/2.3f40b3a6.chunk.js": "/react-navbar-dropdown-examples/static/js/2.3f40b3a6.chunk.js",
-    "static/js/2.3f40b3a6.chunk.js.map": "/react-navbar-dropdown-examples/static/js/2.3f40b3a6.chunk.js.map",
+    "main.css": "/react-navbar-dropdown-examples/static/css/main.3c07cff6.chunk.css",
+    "main.js": "/react-navbar-dropdown-examples/static/js/main.506bf2bb.chunk.js",
+    "main.js.map": "/react-navbar-dropdown-examples/static/js/main.506bf2bb.chunk.js.map",
+    "runtime-main.js": "/react-navbar-dropdown-examples/static/js/runtime-main.f684db4b.js",
+    "runtime-main.js.map": "/react-navbar-dropdown-examples/static/js/runtime-main.f684db4b.js.map",
+    "static/js/2.ea049bf5.chunk.js": "/react-navbar-dropdown-examples/static/js/2.ea049bf5.chunk.js",
+    "static/js/2.ea049bf5.chunk.js.map": "/react-navbar-dropdown-examples/static/js/2.ea049bf5.chunk.js.map",
     "index.html": "/react-navbar-dropdown-examples/index.html",
-    "precache-manifest.0441229cca9d6b9a1bc8573ec511eff3.js": "/react-navbar-dropdown-examples/precache-manifest.0441229cca9d6b9a1bc8573ec511eff3.js",
+    "precache-manifest.3ccf1041881db22f7b7257a7b27ec44f.js": "/react-navbar-dropdown-examples/precache-manifest.3ccf1041881db22f7b7257a7b27ec44f.js",
     "service-worker.js": "/react-navbar-dropdown-examples/service-worker.js",
-    "static/css/main.dcae3bfe.chunk.css.map": "/react-navbar-dropdown-examples/static/css/main.dcae3bfe.chunk.css.map",
-    "static/js/2.3f40b3a6.chunk.js.LICENSE": "/react-navbar-dropdown-examples/static/js/2.3f40b3a6.chunk.js.LICENSE"
+    "static/css/main.3c07cff6.chunk.css.map": "/react-navbar-dropdown-examples/static/css/main.3c07cff6.chunk.css.map",
+    "static/js/2.ea049bf5.chunk.js.LICENSE.txt": "/react-navbar-dropdown-examples/static/js/2.ea049bf5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.90a48107.js",
-    "static/js/2.3f40b3a6.chunk.js",
-    "static/css/main.dcae3bfe.chunk.css",
-    "static/js/main.4e28a572.chunk.js"
+    "static/js/runtime-main.f684db4b.js",
+    "static/js/2.ea049bf5.chunk.js",
+    "static/css/main.3c07cff6.chunk.css",
+    "static/js/main.506bf2bb.chunk.js"
   ]
 }
