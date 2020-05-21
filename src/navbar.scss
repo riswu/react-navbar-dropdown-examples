@@ -39,8 +39,8 @@ $text-color: #333537;
   }
 
   &__item {
+    display: block;
     padding: 4px 8px;
-    border: none;
     border-radius: 3px;
     font-size: 13px;
     font-weight: bold;
