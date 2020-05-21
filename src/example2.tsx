@@ -9,11 +9,11 @@ import './example2.scss';
 const Example2Dropdown: React.FC = () => {
   return (
     <NavbarDropdown>
-      <NavbarDropdown.Toggle>
-        <NavbarDropdown.Open className="menu__item">
+      <NavbarDropdown.Toggle className="menu__item">
+        <NavbarDropdown.Open>
           <FontAwesomeIcon icon={faTh} fixedWidth />
         </NavbarDropdown.Open>
-        <NavbarDropdown.Close className="menu__item">
+        <NavbarDropdown.Close>
           <FontAwesomeIcon icon={faTimes} fixedWidth />
         </NavbarDropdown.Close>
       </NavbarDropdown.Toggle>
